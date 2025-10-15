@@ -75,6 +75,8 @@ class SettingsScreen extends StatelessWidget {
               MaterialPageRoute(builder: (_) => const AboutScreen()),
             ),
           ),
+          const SizedBox(height: 24),
+          _AccountSection(prefs: prefs),
           const SizedBox(height: 32),
         ],
       ),
@@ -101,6 +103,7 @@ class _NameSection extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           TextFormField(
+            key: ValueKey(prefs.userName),
             initialValue: prefs.userName,
             textCapitalization: TextCapitalization.words,
             decoration: InputDecoration(
@@ -305,6 +308,75 @@ class _ThemeSection extends StatelessWidget {
                 ),
               ],
             ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _AccountSection extends StatelessWidget {
+  const _AccountSection({required this.prefs});
+
+  final PrefsProvider prefs;
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    final colorScheme = Theme.of(context).colorScheme;
+    return GlassContainer(
+      padding: const EdgeInsets.all(24),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            l10n.settingsDeleteAccountTitle,
+            style: Theme.of(context).textTheme.titleMedium,
+          ),
+          const SizedBox(height: 12),
+          Text(
+            l10n.settingsDeleteAccountDescription,
+            style: Theme.of(context).textTheme.bodyMedium,
+          ),
+          const SizedBox(height: 16),
+          FilledButton(
+            style: FilledButton.styleFrom(
+              backgroundColor: colorScheme.error,
+              foregroundColor: colorScheme.onError,
+            ),
+            onPressed: () async {
+              final confirmed = await showDialog<bool>(
+                context: context,
+                builder: (dialogContext) => AlertDialog(
+                  title: Text(l10n.settingsDeleteAccountConfirmTitle),
+                  content: Text(l10n.settingsDeleteAccountConfirmMessage),
+                  actions: [
+                    TextButton(
+                      onPressed: () => Navigator.of(dialogContext).pop(false),
+                      child: Text(l10n.actionCancel),
+                    ),
+                    FilledButton(
+                      style: FilledButton.styleFrom(
+                        backgroundColor: colorScheme.error,
+                        foregroundColor: colorScheme.onError,
+                      ),
+                      onPressed: () => Navigator.of(dialogContext).pop(true),
+                      child: Text(l10n.settingsDeleteAccountConfirmAction),
+                    ),
+                  ],
+                ),
+              );
+              if (confirmed == true) {
+                await prefs.deleteAccount();
+                if (!context.mounted) {
+                  return;
+                }
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(content: Text(l10n.settingsDeleteAccountSuccess)),
+                );
+              }
+            },
+            child: Text(l10n.settingsDeleteAccountButton),
           ),
         ],
       ),

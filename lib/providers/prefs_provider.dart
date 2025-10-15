@@ -115,6 +115,20 @@ class PrefsProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  Future<void> deleteAccount() async {
+    await NotificationService.instance.cancelAll();
+    await _storage.deleteAccountData();
+    _dailyGoalMinutes = 10;
+    _remindersEnabled = false;
+    _reminderTimes = [];
+    _themeMode = ThemeMode.system;
+    _onboardingComplete = false;
+    _userName = '';
+    _localeCode = 'system';
+    _attPromptCompleted = false;
+    notifyListeners();
+  }
+
   TimeOfDay? _timeFromString(String value) {
     final parts = value.split(':');
     if (parts.length != 2) {

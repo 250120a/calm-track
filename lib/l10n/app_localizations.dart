@@ -602,6 +602,48 @@ abstract class AppLocalizations {
   /// **'Reminders enabled'**
   String get settingsRemindersEnabled;
 
+  /// No description provided for @settingsDeleteAccountTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete account'**
+  String get settingsDeleteAccountTitle;
+
+  /// No description provided for @settingsDeleteAccountDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Permanently remove your profile and all saved data from this device.'**
+  String get settingsDeleteAccountDescription;
+
+  /// No description provided for @settingsDeleteAccountButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete account'**
+  String get settingsDeleteAccountButton;
+
+  /// No description provided for @settingsDeleteAccountConfirmTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete account?'**
+  String get settingsDeleteAccountConfirmTitle;
+
+  /// No description provided for @settingsDeleteAccountConfirmMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'This will remove your name, goals, reminders, and all emotion and practice history from this device. This cannot be undone.'**
+  String get settingsDeleteAccountConfirmMessage;
+
+  /// No description provided for @settingsDeleteAccountConfirmAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get settingsDeleteAccountConfirmAction;
+
+  /// No description provided for @settingsDeleteAccountSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Your account data has been deleted.'**
+  String get settingsDeleteAccountSuccess;
+
   /// No description provided for @privacyTitle.
   ///
   /// In en, this message translates to:

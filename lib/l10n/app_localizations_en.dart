@@ -268,6 +268,29 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsRemindersEnabled => 'Reminders enabled';
 
   @override
+  String get settingsDeleteAccountTitle => 'Delete account';
+
+  @override
+  String get settingsDeleteAccountDescription =>
+      'Permanently remove your profile and all saved data from this device.';
+
+  @override
+  String get settingsDeleteAccountButton => 'Delete account';
+
+  @override
+  String get settingsDeleteAccountConfirmTitle => 'Delete account?';
+
+  @override
+  String get settingsDeleteAccountConfirmMessage =>
+      'This will remove your name, goals, reminders, and all emotion and practice history from this device. This cannot be undone.';
+
+  @override
+  String get settingsDeleteAccountConfirmAction => 'Delete';
+
+  @override
+  String get settingsDeleteAccountSuccess => 'Your account data has been deleted.';
+
+  @override
   String get privacyTitle => 'Privacy policy';
 
   @override

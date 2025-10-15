@@ -268,6 +268,29 @@ class AppLocalizationsRu extends AppLocalizations {
   String get settingsRemindersEnabled => 'Напоминания включены';
 
   @override
+  String get settingsDeleteAccountTitle => 'Удалить аккаунт';
+
+  @override
+  String get settingsDeleteAccountDescription =>
+      'Безвозвратно удаляет ваш профиль и все сохранённые данные с этого устройства.';
+
+  @override
+  String get settingsDeleteAccountButton => 'Удалить аккаунт';
+
+  @override
+  String get settingsDeleteAccountConfirmTitle => 'Удалить аккаунт?';
+
+  @override
+  String get settingsDeleteAccountConfirmMessage =>
+      'Это удалит ваше имя, цели, напоминания и всю историю эмоций и практик с этого устройства. Отменить действие будет невозможно.';
+
+  @override
+  String get settingsDeleteAccountConfirmAction => 'Удалить';
+
+  @override
+  String get settingsDeleteAccountSuccess => 'Данные вашего аккаунта удалены.';
+
+  @override
   String get privacyTitle => 'Политика конфиденциальности';
 
   @override
