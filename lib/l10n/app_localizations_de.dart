@@ -268,6 +268,29 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsRemindersEnabled => 'Erinnerungen an';
 
   @override
+  String get settingsDeleteAccountTitle => 'Konto löschen';
+
+  @override
+  String get settingsDeleteAccountDescription =>
+      'Entfernt dauerhaft dein Profil und alle gespeicherten Daten von diesem Gerät.';
+
+  @override
+  String get settingsDeleteAccountButton => 'Konto löschen';
+
+  @override
+  String get settingsDeleteAccountConfirmTitle => 'Konto löschen?';
+
+  @override
+  String get settingsDeleteAccountConfirmMessage =>
+      'Dadurch werden dein Name, Ziele, Erinnerungen sowie dein gesamtes Emotions- und Übungsprotokoll von diesem Gerät entfernt. Dies kann nicht rückgängig gemacht werden.';
+
+  @override
+  String get settingsDeleteAccountConfirmAction => 'Löschen';
+
+  @override
+  String get settingsDeleteAccountSuccess => 'Deine Kontodaten wurden gelöscht.';
+
+  @override
   String get privacyTitle => 'Datenschutz';
 
   @override

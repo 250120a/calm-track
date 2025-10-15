@@ -268,6 +268,29 @@ class AppLocalizationsFr extends AppLocalizations {
   String get settingsRemindersEnabled => 'Rappels activés';
 
   @override
+  String get settingsDeleteAccountTitle => 'Supprimer le compte';
+
+  @override
+  String get settingsDeleteAccountDescription =>
+      'Supprimez définitivement votre profil et toutes les données enregistrées de cet appareil.';
+
+  @override
+  String get settingsDeleteAccountButton => 'Supprimer le compte';
+
+  @override
+  String get settingsDeleteAccountConfirmTitle => 'Supprimer le compte ?';
+
+  @override
+  String get settingsDeleteAccountConfirmMessage =>
+      'Cela supprimera votre nom, vos objectifs, vos rappels ainsi que tout l’historique des émotions et des pratiques de cet appareil. Cette action est irréversible.';
+
+  @override
+  String get settingsDeleteAccountConfirmAction => 'Supprimer';
+
+  @override
+  String get settingsDeleteAccountSuccess => 'Les données de votre compte ont été supprimées.';
+
+  @override
   String get privacyTitle => 'Politique de confidentialité';
 
   @override
