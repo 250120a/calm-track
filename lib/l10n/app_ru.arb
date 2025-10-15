@@ -1,0 +1,163 @@
+{
+  "appTitle": "SoulTrack",
+  "actionNext": "Далее",
+  "actionStart": "Начать",
+  "actionSave": "Сохранить",
+  "actionCancel": "Отмена",
+  "actionAdd": "Добавить",
+  "onboardingTitle1": "Отмечайте эмоции за три секунды",
+  "onboardingTitle2": "Снимайте стресс мини-играми",
+  "onboardingTitle3": "Наблюдайте свой прогресс",
+  "onboardingToggleReminders": "Напоминать отмечать эмоции",
+  "onboardingDailyGoalLabel": "Дневная цель спокойствия",
+  "onboardingDailyGoalSuffix": "минут",
+  "onboardingInitialGoal": "Initial goal set to {minutes} minutes",
+  "@onboardingInitialGoal": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "navHome": "Домой",
+  "navStats": "Статистика",
+  "navCalmPlay": "Calm Play",
+  "homeGreeting": "Привет",
+  "homeToday": "Сегодня {date}",
+  "@homeToday": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "homePracticeProgress": "Минуты спокойствия",
+  "homeHowFeeling": "Как ты себя чувствуешь?",
+  "homeQuickPractice": "Быстрая практика",
+  "homeRecentEntries": "Записи за сегодня",
+  "homeAddNoteTitle": "Добавить заметку",
+  "homeAddNoteHint": "Что повлияло на эмоцию?",
+  "homePlayCta": "Поиграть, чтобы расслабиться",
+  "homeCustomMinutes": "Свои минуты",
+  "homeCustomMinutesHint": "Сколько минут?",
+  "homeNoEntries": "Записей пока нет",
+  "homeViewLog": "Открыть журнал",
+  "homeGoalRemaining": "Осталось {minutes} мин",
+  "@homeGoalRemaining": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "emotionJoyful": "Радостно",
+  "emotionPleasant": "Приятно",
+  "emotionNeutral": "Нейтрально",
+  "emotionUncertain": "Неуверенно",
+  "emotionAngry": "Раздраженно",
+  "emotionSleepy": "Сонно",
+  "emotionSad": "Грустно",
+  "emotionExcited": "Взволнованно",
+  "practiceBreathing": "Дыхание",
+  "practiceTimer": "Таймер",
+  "practiceGame": "Wave dodge",
+  "practiceCustom": "Своя",
+  "snackbarEmotionSaved": "Эмоция сохранена",
+  "snackbarEmotionRemoved": "Запись удалена",
+  "snackbarPracticeSaved": "Практика добавлена",
+  "logTitle": "Журнал эмоций",
+  "logFilterLabel": "Фильтры",
+  "logFilterAll": "Все",
+  "logSearchHint": "Поиск по заметкам",
+  "logEmpty": "Нет записей для такого фильтра",
+  "statsTitle": "Аналитика",
+  "statsDistribution": "Распределение эмоций",
+  "statsMoodTrend": "Динамика настроения",
+  "statsPracticeMinutes": "Минуты практик",
+  "statsRange7": "7 дней",
+  "statsRange30": "30 дней",
+  "statsRange90": "90 дней",
+  "calmPlayBreathing": "Дыхание",
+  "calmPlayTimer": "Таймер",
+  "calmPlayGame": "Мини-игра",
+  "calmPlayInhale": "Вдох",
+  "calmPlayHold": "Задержка",
+  "calmPlayExhale": "Выдох",
+  "calmPlayStart": "Старт",
+  "calmPlayPause": "Пауза",
+  "calmPlayResume": "Продолжить",
+  "calmPlayStop": "Стоп",
+  "calmPlayAddMinutesTitle": "Добавить минуты?",
+  "calmPlayAddMinutesBody": "Добавить {minutes} минут спокойствия в журнал?",
+  "@calmPlayAddMinutesBody": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "calmPlayElapsed": "{minutes} мин {seconds}с",
+  "@calmPlayElapsed": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsTitle": "Настройки",
+  "settingsDailyGoal": "Дневная цель спокойствия",
+  "settingsReminders": "Напоминания",
+  "settingsAddReminder": "Добавить напоминание",
+  "settingsTheme": "Тема",
+  "settingsThemeSystem": "Системная",
+  "settingsThemeLight": "Светлая",
+  "settingsThemeDark": "Тёмная",
+  "settingsRateApp": "Оценить SoulTrack",
+  "settingsPrivacy": "Политика конфиденциальности",
+  "settingsAbout": "О приложении",
+  "settingsRemindersDisabled": "Напоминания выключены",
+  "settingsRemindersEnabled": "Напоминания включены",
+  "privacyTitle": "Политика конфиденциальности",
+  "privacyBody": "SoulTrack хранит записи локально на устройстве. Данные не покидают телефон без твоего согласия.",
+  "aboutTitle": "О SoulTrack",
+  "aboutVersion": "Версия {version}",
+  "@aboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutAuthor": "Создано Fazal",
+  "aboutContact": "Поддержка: fazalbinkaramat@gmail.com",
+  "aboutDisclaimer": "SoulTrack не является медицинским изделием.",
+  "onboardingNameLabel": "Как тебя называть?",
+  "onboardingNameHint": "Введите имя",
+  "onboardingNameValidation": "Пожалуйста, укажите имя",
+  "homeGreetingNamed": "Привет, {name}",
+  "@homeGreetingNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsName": "Твоё имя",
+  "settingsNameHint": "Как обращаться к тебе?",
+  "settingsLanguage": "Язык",
+  "settingsLanguageSystem": "Как в системе",
+  "languageEnglish": "Английский",
+  "languageSpanish": "Испанский",
+  "languageRussian": "Русский",
+  "languageFrench": "Французский",
+  "languageGerman": "Немецкий",
+  "emotionPeaceful": "Спокойно",
+  "settingsUsage": "Правила использования",
+  "trackingPermissionTitle": "Помогите нам понять, что работает",
+  "trackingPermissionBody": "Мы используем идентификатор устройства, чтобы понимать, какие объявления приводят пользователей в CalmTrack. Это помогает оставаться приложению бесплатным и развивать нужные функции. Сейчас Apple попросит разрешить отслеживание.",
+  "trackingPermissionButton": "Продолжить",
+  "trackingPermissionSettings": "Вы можете изменить решение в любой момент: Настройки > Конфиденциальность > Отслеживание."
+}

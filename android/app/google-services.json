@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "710364633411",
+    "project_id": "calmtrack-a3610",
+    "storage_bucket": "calmtrack-a3610.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710364633411:android:ffbb78a2c61066fa0cb7f6",
+        "android_client_info": {
+          "package_name": "com.example.app1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV2vdD7YlG60Pa3b98e2pNtIz-7IO4Oec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

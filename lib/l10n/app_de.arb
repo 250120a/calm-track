@@ -1,0 +1,163 @@
+{
+  "appTitle": "SoulTrack",
+  "actionNext": "Weiter",
+  "actionStart": "Starten",
+  "actionSave": "Speichern",
+  "actionCancel": "Abbrechen",
+  "actionAdd": "Hinzufügen",
+  "onboardingTitle1": "Erfasse Emotionen in drei Sekunden",
+  "onboardingTitle2": "Baue Stress mit Minispielen ab",
+  "onboardingTitle3": "Sieh deinen Fortschritt",
+  "onboardingToggleReminders": "An das Eintragen erinnern",
+  "onboardingDailyGoalLabel": "Tägliches Ruhe-Ziel",
+  "onboardingDailyGoalSuffix": "Minuten",
+  "onboardingInitialGoal": "Initial goal set to {minutes} minutes",
+  "@onboardingInitialGoal": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "navHome": "Home",
+  "navStats": "Statistiken",
+  "navCalmPlay": "Calm Play",
+  "homeGreeting": "Hallo",
+  "homeToday": "Heute ist {date}",
+  "@homeToday": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "homePracticeProgress": "Ruhe-Minuten",
+  "homeHowFeeling": "Wie fühlst du dich?",
+  "homeQuickPractice": "Schnelle Ruhe",
+  "homeRecentEntries": "Heutige Einträge",
+  "homeAddNoteTitle": "Notiz hinzufügen",
+  "homeAddNoteHint": "Was hat die Emotion beeinflusst?",
+  "homePlayCta": "Zum Entspannen spielen",
+  "homeCustomMinutes": "Eigene Minuten",
+  "homeCustomMinutesHint": "Wie viele Minuten?",
+  "homeNoEntries": "Noch keine Einträge",
+  "homeViewLog": "Protokoll ansehen",
+  "homeGoalRemaining": "{minutes} Min übrig",
+  "@homeGoalRemaining": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "emotionJoyful": "Freudig",
+  "emotionPleasant": "Zufrieden",
+  "emotionNeutral": "Neutral",
+  "emotionUncertain": "Unsicher",
+  "emotionAngry": "Verärgert",
+  "emotionSleepy": "Müde",
+  "emotionSad": "Niedergeschlagen",
+  "emotionExcited": "Aufgeregt",
+  "practiceBreathing": "Atmung",
+  "practiceTimer": "Timer",
+  "practiceGame": "Wave dodge",
+  "practiceCustom": "Eigen",
+  "snackbarEmotionSaved": "Emotion gespeichert",
+  "snackbarEmotionRemoved": "Eintrag gelöscht",
+  "snackbarPracticeSaved": "Übung hinzugefügt",
+  "logTitle": "Emotionsprotokoll",
+  "logFilterLabel": "Filter",
+  "logFilterAll": "Alle",
+  "logSearchHint": "Notizen durchsuchen",
+  "logEmpty": "Keine Einträge für diesen Filter",
+  "statsTitle": "Einblicke",
+  "statsDistribution": "Emotionsverteilung",
+  "statsMoodTrend": "Stimmungstrend",
+  "statsPracticeMinutes": "Übungsminuten",
+  "statsRange7": "7 Tage",
+  "statsRange30": "30 Tage",
+  "statsRange90": "90 Tage",
+  "calmPlayBreathing": "Atmung",
+  "calmPlayTimer": "Timer",
+  "calmPlayGame": "Minispiel",
+  "calmPlayInhale": "Einatmen",
+  "calmPlayHold": "Halten",
+  "calmPlayExhale": "Ausatmen",
+  "calmPlayStart": "Start",
+  "calmPlayPause": "Pause",
+  "calmPlayResume": "Fortsetzen",
+  "calmPlayStop": "Stopp",
+  "calmPlayAddMinutesTitle": "Minuten hinzufügen?",
+  "calmPlayAddMinutesBody": "{minutes} Ruhe-Minuten zum Protokoll hinzufügen?",
+  "@calmPlayAddMinutesBody": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "calmPlayElapsed": "{minutes} Min {seconds}s",
+  "@calmPlayElapsed": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsTitle": "Einstellungen",
+  "settingsDailyGoal": "Tägliches Ruhe-Ziel",
+  "settingsReminders": "Erinnerungen",
+  "settingsAddReminder": "Erinnerung hinzufügen",
+  "settingsTheme": "Theme",
+  "settingsThemeSystem": "System",
+  "settingsThemeLight": "Hell",
+  "settingsThemeDark": "Dunkel",
+  "settingsRateApp": "SoulTrack bewerten",
+  "settingsPrivacy": "Datenschutz",
+  "settingsAbout": "Über SoulTrack",
+  "settingsRemindersDisabled": "Erinnerungen aus",
+  "settingsRemindersEnabled": "Erinnerungen an",
+  "privacyTitle": "Datenschutz",
+  "privacyBody": "SoulTrack speichert Einträge lokal auf dem Gerät. Daten verlassen das Telefon nur mit deiner Zustimmung.",
+  "aboutTitle": "Über SoulTrack",
+  "aboutVersion": "Version {version}",
+  "@aboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutAuthor": "Erstellt von Fazal",
+  "aboutContact": "Support: fazalbinkaramat@gmail.com",
+  "aboutDisclaimer": "SoulTrack ist kein Medizinprodukt.",
+  "onboardingNameLabel": "Wie sollen wir dich nennen?",
+  "onboardingNameHint": "Name eingeben",
+  "onboardingNameValidation": "Bitte gib deinen Namen ein",
+  "homeGreetingNamed": "Hallo, {name}",
+  "@homeGreetingNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsName": "Dein Name",
+  "settingsNameHint": "Wie sollen wir dich ansprechen?",
+  "settingsLanguage": "Sprache",
+  "settingsLanguageSystem": "Systemsprache",
+  "languageEnglish": "Englisch",
+  "languageSpanish": "Spanisch",
+  "languageRussian": "Russisch",
+  "languageFrench": "Französisch",
+  "languageGerman": "Deutsch",
+  "emotionPeaceful": "Gelassen",
+  "settingsUsage": "Nutzungsbedingungen",
+  "trackingPermissionTitle": "Hilf uns zu verstehen, was funktioniert",
+  "trackingPermissionBody": "Wir verwenden deine Gerätekennung, um zu verstehen, welche Anzeigen Menschen zu CalmTrack bringen. So bleibt die App kostenlos und wir können uns auf Funktionen konzentrieren, die dir wichtig sind. Apple wird dich nun fragen, ob du das Tracking erlaubst.",
+  "trackingPermissionButton": "Weiter",
+  "trackingPermissionSettings": "Du kannst dies jederzeit unter Einstellungen > Datenschutz > Tracking ändern."
+}

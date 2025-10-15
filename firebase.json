@@ -1,0 +1,22 @@
+{
+  "flutter": {
+    "platforms": {
+      "ios": {
+        "default": {
+          "projectId": "calmtrack-a3610",
+          "appId": "1:710364633411:ios:fb0376072c5cd2390cb7f6",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "calmtrack-a3610",
+          "configurations": {
+            "ios": "1:710364633411:ios:fb0376072c5cd2390cb7f6"
+          }
+        }
+      }
+    }
+  }
+}

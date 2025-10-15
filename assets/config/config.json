@@ -1,0 +1,96 @@
+{
+  "conditions": [],
+  "parameterGroups": {},
+  "parameters": {
+    "gameName": {
+      "defaultValue": {
+        "value": "SoulTrack"
+      },
+      "valueType": "STRING"
+    },
+    "appsFlyerDevKey": {
+      "defaultValue": {
+        "value": "DEBUG_KEY_123"
+      },
+      "valueType": "STRING"
+    },
+    "appleAppID": {
+      "defaultValue": {
+        "value": "123456789"
+      },
+      "valueType": "STRING"
+    },
+    "oneSignalAppID": {
+      "defaultValue": {
+        "value": "11111111-2222-3333-4444-555555555555"
+      },
+      "valueType": "STRING"
+    },
+    "environment": {
+      "defaultValue": {
+        "value": "Development"
+      },
+      "valueType": "STRING"
+    },
+    "version": {
+      "defaultValue": {
+        "value": "1.0.0"
+      },
+      "valueType": "STRING"
+    },
+    "lastUpdated": {
+      "defaultValue": {
+        "value": "2025-10-11T12:00:00Z"
+      },
+      "valueType": "STRING"
+    },
+    "showPrivacy": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "valueType": "BOOLEAN"
+    },
+    "showUsage": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "valueType": "BOOLEAN"
+    },
+    "privacyURL": {
+      "defaultValue": {
+        "value": "aHR0cHM6Ly9jYWxtdHJhY2stcHJpdmFjeS5jYXJyZC5jby8"
+      },
+      "valueType": "STRING"
+    },
+    "usageURL": {
+      "defaultValue": {
+        "value": "aHR0cHM6Ly9jYWxtdHJhY2stdXNhZ2UuY2FycmQuY28v"
+      },
+      "valueType": "STRING"
+    },
+    "appURL": {
+      "defaultValue": {
+        "value": "https://apps.apple.com/app/id123456789"
+      },
+      "valueType": "STRING"
+    },
+    "pushNotificationsEnabled": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "valueType": "BOOLEAN"
+    },
+    "analyticsEnabled": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "valueType": "BOOLEAN"
+    },
+    "privacyPolicyRequired": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "valueType": "BOOLEAN"
+    }
+  }
+}
